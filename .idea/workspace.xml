@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f264624-eaad-4018-900c-468c063b791a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/docker-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-publish.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628406420197</updated>
-      <workItem from="1628406423412" duration="1196000" />
+      <workItem from="1628406423412" duration="1406000" />
     </task>
     <servers />
   </component>
