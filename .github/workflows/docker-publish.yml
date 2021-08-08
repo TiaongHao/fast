@@ -14,7 +14,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    
       - name: Check Out Repo 
         uses: actions/checkout@v2
 
@@ -35,7 +34,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fast:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
